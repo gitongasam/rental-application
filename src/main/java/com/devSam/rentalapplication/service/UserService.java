@@ -8,4 +8,10 @@ public interface UserService {
     User regsterUser(User user);
 
     List<User> findAllUser();
+
+    List<Object> findById(Long id);
+
+    User getUserById(Long userId);
+
+    boolean deleteUserById(Long userId);
 }
